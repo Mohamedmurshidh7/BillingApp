@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>
+            Biller-open source billing platform
+        </title>
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script type="text/javascript" src="script2.js"></script>
+
+    </head>
+    <body>
+        <div id="head">
+            <nav>
+                <ul>
+                    <li><a href="#">Biller</a></li>
+                    <li><a href="#login">Login</a></li>
+                    <li><a href="http://localhost:8000/register">Sign up</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="search-container">
+        <form>
+        <input type="text" id="txt" placeholder="Search...">
+        <button type="button" onclick="my()" ><i class="fa fa-search"></i></button>
+        </form>
+        </div>
+        <table id="t1">
+            <tr>
+                <th>SSID</th>
+                <th style="width:45%">item</th>
+                <th>price</th>
+                <th>quantity</th>
+                <th>total</th>
+            </tr>
+        </table>
+        <div class="row">
+                <div class="column"> <h3 style="margin-left: 200px;"> Total : <div class="column" id="sm"></div>                </h3></div>
+
+        </div>
+
+        </div>
+        <div style="text-align: center;">
+        <button id="print">Print</button>
+        </div>
+
+    </body>
+</html>

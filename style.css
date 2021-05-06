@@ -1,0 +1,83 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    border-left: 1px solid wheat;
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: rgb(13, 255, 255);
+  }
+  table
+  {
+      width:100%;
+  }
+  table,th,td
+  {
+      padding:10px;
+      margin:0;
+      border:1px solid black;
+      border-collapse: collapse;
+      font-family:Arial, Helvetica, sans-serif;
+      font-size: medium;
+      text-align: center;
+  }
+  input[type=text] {
+    padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  }
+  .search-container
+  {
+    float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;  }
+  
+  .search-container button:hover {
+    background: #ccc;
+  }
+  .btn
+  {
+    border-radius: 0px;
+    border-style: hidden;
+    background-color: rgb(255, 255, 255);
+
+  }
+  .btn:hover
+  {
+    color: gray;
+  }
+  #print
+  {
+    text-align: center;
+    background-color: blue;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+
+  }
+#sm,.column
+{
+  float:right;
+}
